@@ -21,7 +21,9 @@ function App() {
       <h1>Vite + React</h1> */}
 
       <section>
-        <div>
+        <div className="grid place-items-center p-5">
+          <h4>Single component</h4>
+
           <div className=" mx-auto flex max-w-sm items-center gap-x-4 rounded-xl bg-white p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
             <img
               className="size-12 shrink-0 md:w-40 lg:w-10"
@@ -42,16 +44,15 @@ function App() {
           </div>
         </div>
 
-        <div>
+        <div className="grid place-items-center p-5">
           <h4>Hover states</h4>
           <button className="rounded-full bg-sky-500 px-5 py-2 text-sm leading-5 font-semibold text-white hover:bg-sky-700">
             Save changes
           </button>
         </div>
 
-        <div className="grid place-items-center">
+        <div className="grid place-items-center p-5">
           <h4>hover, focus, and active states</h4>
-
           <button
             type="button"
             className="rounded-full bg-violet-500 px-5 py-2 text-sm leading-5 font-semibold text-white hover:bg-violet-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700"
@@ -60,9 +61,8 @@ function App() {
           </button>
         </div>
 
-        <div className="grid place-items-center">
+        <div className="grid place-items-center p-5">
           <h4>invalid, focus, and disabled states</h4>
-
           <form action="">
             <input
               id="email-1"
