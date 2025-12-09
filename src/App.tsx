@@ -42,7 +42,23 @@ function App() {
           </div>
         </div>
 
-        <div></div>
+        <div>
+          <h4>Hover states</h4>
+          <button className="rounded-full bg-sky-500 px-5 py-2 text-sm leading-5 font-semibold text-white hover:bg-sky-700">
+            Save changes
+          </button>
+        </div>
+
+        <div className="grid place-items-center">
+          <h4>hover, focus, and active states</h4>
+
+          <button
+            type="button"
+            className="rounded-full bg-violet-500 px-5 py-2 text-sm leading-5 font-semibold text-white hover:bg-violet-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700"
+          >
+            Save changes
+          </button>
+        </div>
       </section>
 
       {/* <div className="card">
