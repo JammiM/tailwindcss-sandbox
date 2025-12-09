@@ -59,6 +59,21 @@ function App() {
             Save changes
           </button>
         </div>
+
+        <div className="grid place-items-center">
+          <h4>invalid, focus, and disabled states</h4>
+
+          <form action="">
+            <input
+              id="email-1"
+              className="block w-full rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm invalid:border-pink-500 invalid:text-pink-600 focus:border-sky-500 focus:outline focus:outline-sky-500 focus:invalid:border-pink-500 focus:invalid:outline-pink-500 disabled:border-gray-200 disabled:bg-gray-50 disabled:text-gray-500 disabled:shadow-none sm:text-sm dark:disabled:border-gray-700 dark:disabled:bg-gray-800/20"
+              placeholder="you@example.com"
+              type="email"
+              value="ja1mail.fcom"
+              name="email"
+            />
+          </form>
+        </div>
       </section>
 
       {/* <div className="card">
