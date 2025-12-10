@@ -74,6 +74,20 @@ function App() {
             />
           </form>
         </div>
+
+        <div className="grid place-items-center p-5">
+          <h4>Example of dark mode</h4>
+
+          <div className="bg-amber-200 dark:bg-slate-600">
+            <p className="mt-5 p-5 dark:text-slate-400">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis, distinctio. Iusto, iure exercitationem? Eos
+              repudiandae doloremque nemo voluptas. Minus aspernatur similique
+              ea, nostrum omnis quis voluptatum ab voluptatibus adipisci
+              architecto.
+            </p>
+          </div>
+        </div>
       </section>
 
       {/* <div className="card">
