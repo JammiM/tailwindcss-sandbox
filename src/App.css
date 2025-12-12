@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+@theme {
+  --color-basic-test: #121063;
+}
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
