@@ -88,6 +88,16 @@ function App() {
             </p>
           </div>
         </div>
+
+        <div className="grid place-items-center p-5">
+          <h4>Custom Colours component</h4>
+          <p className="text-red-600">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
+            quas perferendis nostrum quam, maiores, consequuntur vero, unde
+            neque quibusdam commodi laudantium ut repellendus voluptatem soluta
+            nisi culpa a fugit veniam.
+          </p>
+        </div>
       </section>
 
       {/* <div className="card">
