@@ -89,9 +89,9 @@ function App() {
           </div>
         </div>
 
-        <div className="grid place-items-center p-5">
+        <div className="grid place-items-center p-5 bg-amber-500 border-4">
           <h4>Custom Colours component</h4>
-          <p className="text-red-600">
+          <p className="text-red-600 border-t-4 border-green-300">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
             quas perferendis nostrum quam, maiores, consequuntur vero, unde
             neque quibusdam commodi laudantium ut repellendus voluptatem soluta
