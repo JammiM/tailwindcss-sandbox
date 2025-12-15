@@ -20,6 +20,15 @@ function App() {
       </div>
       <h1>Vite + React</h1> */}
 
+      <section className="grid place-items-center p-5">
+        <h1 className="text-9xl">H1</h1>
+        <h2 className="text-5xl">H2</h2>
+        <h3 className="text-xl">H3</h3>
+        <p className="text-base">dfsdf dsfsfsd</p>
+        <p className="text-sm">dfsdf dsfsfsd</p>
+        <p className="text-xs note">dfsdf dsfsfsd</p>
+      </section>
+
       <section>
         <div className="grid place-items-center p-5">
           <h4>Single component</h4>
