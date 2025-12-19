@@ -107,6 +107,15 @@ function App() {
             nisi culpa a fugit veniam.
           </p>
         </div>
+
+        <div className="grid place-items-center p-5">
+          <h4>Flexbox examples</h4>
+          <div className="flex flex-row">
+            <div className="basis-64">01</div>
+            <div className="basis-64">02</div>
+            <div className="basis-128">03</div>
+          </div>
+        </div>
       </section>
 
       {/* <div className="card">
