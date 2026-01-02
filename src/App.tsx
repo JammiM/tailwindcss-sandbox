@@ -1,7 +1,7 @@
 import { useState } from "react";
 import chitChatIcon from "./assets/chat-icon.svg";
 // import viteLogo from "/vite.svg";
-import "./reset.css";
+
 import "./App.css";
 
 function App() {
@@ -19,6 +19,15 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1> */}
+
+      <section className="container mx-auto border-2 border-blue-700">
+        <p className="text-base">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          dolor aliquid eius consequatur alias repellendus corrupti voluptates
+          dolorem nemo ipsum corporis nisi exercitationem aspernatur, atque
+          fugit. Voluptas qui voluptatibus pariatur!
+        </p>
+      </section>
 
       <section className="grid place-items-center p-5">
         <h1 className="text-9xl">H1</h1>
