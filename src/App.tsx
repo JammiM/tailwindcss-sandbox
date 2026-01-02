@@ -29,6 +29,15 @@ function App() {
         </p>
       </section>
 
+      <section className="container mx-auto">
+        <p className="text-center bg-red-400 sm:text-right sm:bg-blue-700 md:text-left md:bg-amber-700 lg:text-right lg:bg-yellow-400">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          dolor aliquid eius consequatur alias repellendus corrupti voluptates
+          dolorem nemo ipsum corporis nisi exercitationem aspernatur, atque
+          fugit. Voluptas qui voluptatibus pariatur!
+        </p>
+      </section>
+
       <section className="grid place-items-center p-5">
         <h1 className="text-9xl">H1</h1>
         <h2 className="text-5xl">H2</h2>
