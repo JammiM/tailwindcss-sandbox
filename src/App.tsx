@@ -54,6 +54,22 @@ function App() {
         </p>
       </section>
 
+      <section className="container mx-auto">
+        <h4 className="text-2xl">Custom inline style values/attributes</h4>
+        <p className="text-base bg-[#f114b6] p-2.5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          dolor aliquid eius consequatur alias repellendus corrupti voluptates
+          dolorem nemo ipsum corporis nisi exercitationem aspernatur, atque
+          fugit. Voluptas qui voluptatibus pariatur!
+        </p>
+
+        <div className="relative flex py-5 items-center mt-5">
+          <div className="grow border-t border-gray-400"></div>
+        </div>
+      </section>
+
+      <hr className="w-48 h-1 mx-auto my-4 bg-neutral-quaternary border-0 rounded-sm md:my-10" />
+
       <section className="grid place-items-center p-5">
         <h1 className="text-9xl">H1</h1>
         <h2 className="text-5xl">H2</h2>
