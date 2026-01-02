@@ -38,6 +38,22 @@ function App() {
         </p>
       </section>
 
+      <section className="container mx-auto border-2 border-blue-700">
+        <h4 className="text-2xl mb-1">Margin, padding</h4>
+        <p className="text-base mb-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          dolor aliquid eius consequatur alias repellendus corrupti voluptates
+          dolorem nemo ipsum corporis nisi exercitationem aspernatur, atque
+          fugit. Voluptas qui voluptatibus pariatur!
+        </p>
+        <p className="text-base ml-32">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          dolor aliquid eius consequatur alias repellendus corrupti voluptates
+          dolorem nemo ipsum corporis nisi exercitationem aspernatur, atque
+          fugit. Voluptas qui voluptatibus pariatur!
+        </p>
+      </section>
+
       <section className="grid place-items-center p-5">
         <h1 className="text-9xl">H1</h1>
         <h2 className="text-5xl">H2</h2>
